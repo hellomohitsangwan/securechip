@@ -1,0 +1,13 @@
+{
+  "name": "secure chip",
+  "version": "1.0",
+  "description": "Block all images on a webpage and provides their URLs.",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
